@@ -283,6 +283,11 @@ nav {
 }
 
 footer {
+  position: fixed;
+  bottom:0;
+  _position:absolute;
+  _top:expression(document.documentElement.clientHeight + document.documentElement.scrollTop - this.offsetHeight);
+  margin-top: -80px;
   padding: 20px 0;
   text-align: center;
 }
