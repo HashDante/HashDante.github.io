@@ -272,11 +272,7 @@ nav {
 }
 
 .wrapper-footer {
-  position: fixed;
-  bottom:0;
-  _position:absolute;
-  _top:expression(document.documentElement.clientHeight + document.documentElement.scrollTop - this.offsetHeight);
-  margin-top: -80px;
+  margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
