@@ -281,6 +281,7 @@ nav {
 footer {
   position: fixed;
   bottom:0;
+  width: 50%
   _position:absolute;
   _top:expression(document.documentElement.clientHeight + document.documentElement.scrollTop - this.offsetHeight);
   margin-top: -80px;
